@@ -1,0 +1,16 @@
+{
+  "name": "keuanganku-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Dashboard keuangan pribadi: Node.js + Tailwind CSS + Bootstrap Icons + Supabase",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/css/app.css --minify",
+    "dev": "npm run build && node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "tailwindcss": "^3.4.17"
+  }
+}
